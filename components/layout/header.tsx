@@ -40,7 +40,7 @@ export function Header() {
             <Sun className="h-4 w-4 text-zinc-950 dark:hidden dark:text-zinc-50" />
           </Toggle>
           <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#CA5538] p-2 dark:bg-zinc-50">
-            {/* user button */}
+            {/* user button - change to Avatar */}
             <span className="text-sm font-bold text-white">A</span>
           </div>
         </div>

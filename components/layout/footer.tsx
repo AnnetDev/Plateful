@@ -8,7 +8,8 @@ export function Footer() {
                 <p className="text-sm text-zinc-950 dark:text-zinc-50">
                     &copy; {new Date().getFullYear()} Plateful. Stockholm
                 </p>
-                <Link href="https://www.linkedin.com/in/anna-baidikova/" className="text-sm text-zinc-950 dark:text-zinc-50">Anna Baidikova</Link>
+                <Link href="https://www.linkedin.com/in/anna-baidikova/" className="text-sm text-zinc-950 dark:text-zinc-50" target="_blank" rel="noopener noreferrer"
+                >Anna Baidikova</Link>
             </Container>
         </footer>
     )

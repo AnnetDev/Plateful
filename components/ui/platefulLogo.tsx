@@ -1,4 +1,3 @@
-// component accepts props for changin font size and color of the logo text
 import Link from "next/link";
 
 export function PlatefulLogo({
