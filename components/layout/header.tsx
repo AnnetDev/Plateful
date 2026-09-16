@@ -12,7 +12,7 @@ const navItems: { name: string; href: string }[] = [
 
 export function Header() {
   return (
-    <header className="flex w-full items-center justify-between border-b border-[#ECE6E1] bg-transparent px-8 py-4 dark:border-zinc-800">
+    <header className="flex w-full items-center justify-between border-b border-[#ECE6E1] bg-transparent py-4 dark:border-zinc-800">
       <Container className="flex items-center justify-between">
         <div className="flex items-center gap-6">
           <PlatefulLogo size="text-2xl" color="text-zinc-950 dark:text-zinc-50" />
